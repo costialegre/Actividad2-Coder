@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: black;
+font-family: 'Itim', cursive;
+}
+
+.descripcionhome {
+    margin: 50px;
+    border-color: rgb(179, 175, 175);
+}
+
+
+table {
+    color: white;
+}
+
+
+#fotodesafiohome {
+    padding: 20px;
+}
+
+#fotogrupo {
+    padding: 20px;
+}
+
+.video {
+    margin: 20px;
+    width: 100%;
+}
+
+form {
+    color: white;
+}
+.novedades1 { 
+  width: 90%; background-color: rgb(195, 191, 191); padding: 10px; margin: 20px; border: solid 3px rgb(19, 19, 19) ; position: relative; top: 40px; left: 20px; color: rgb(9, 9, 9);
+
+}

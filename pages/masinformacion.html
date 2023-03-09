@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas información</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Brotherlogo.jpeg">
+
+</head>
+
+<body>
+    <img src="../Brotherlogo2.jpeg" alt="Logo de Brother Cross" width="400px" height="150px">
+    <!--Barra de navegación-->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../pages/turnos.html">Turnos</a>
+        <a href="../pages/contacto.html">Contacto</a>
+        <a href="../pages/masinformacion.html">Mas informacion</a>
+        <a href="../pages/desafios.html">Desafios</a>
+    </nav>
+    <br>
+    <h1>Más información</h1>
+    <p>¿Queres recibir más información?
+        Dejanos tus datos y preferencias así podemos brindarte la información necesaria.
+    </p>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" required>
+            <br>
+            <br>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" name="email" id="correo" required>
+            <br>
+            <br>
+            <label for="tel">Celular</label>
+            <input type="tel" name="tel" id="tel" required>
+        </fieldset>
+        <fieldset>
+            <br>
+            <legend>Preferencias de turno</legend>
+            <select name="turnos">Turnos
+                <option value="mañana">Turno mañana</option>
+                <option value="tarde">Turno tarde</option>
+            </select>
+            <p>¿Qué horarios preferis? Te informaremos cuales estan disponibles</p>
+            <br>
+            <p>Turno mañana</p>
+            <label for="9a10">9 a 10hs</label>
+            <input type="checkbox" name="9a10" id="9a10">
+            <br>
+            <label for="10a11">10 a 11hs</label>
+            <input type="checkbox" name="10a11" id="10a11">
+            <br>
+            <label for="11a12">11 a 12hs</label>
+            <input type="checkbox" name="11a12" id="11a12">
+            <br>
+            <label for="12a13">12 a 13hs</label>
+            <input type="checkbox" name="12a13" id="12a13">
+            <br>
+            <br>
+            <p>Turno tarde</p>
+            <label for="15a16">15 a 16hs</label>
+            <input type="checkbox" name="15a16" id="15a16">
+            <br>
+            <label for="16a17">16 a 17hs</label>
+            <input type="checkbox" name="16a17" id="16a17">
+            <br>
+            <label for="17a18">17 a 18hs</label>
+            <input type="checkbox" name="17a18" id="17a18">
+            <br>
+            <label for="18a19">18 a 19hs</label>
+            <input type="checkbox" name="18a19" id="18a19">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Información médica</legend>
+            <p>¿Tenes alguna enfermedad?</p>
+            <label for="si">Si</label>
+            <input type="radio" name="enfermedad" value="si" id="si">
+            <label for="no">No</label>
+            <input type="radio" name="enfermedad" value="no" id="no">
+            <br>
+            <br>
+            <label for="infomedica">Dejanos más información al respecto</label>
+            <br>
+            <textarea name="infomedica" id="infomedica" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpiar formulario">
+
+
+
+    </form>
+</body>
+
+</html>
